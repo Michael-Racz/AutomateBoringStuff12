@@ -8,6 +8,7 @@ This program will open a web browser in firefox and start playing the game 2048 
 ### Uses
 Selenium for the webdriver, selenium.webdriver.common.keys for the arrow key presses, and time for the program to slow down. It looks better when the presses are .1 seconds apart and not all instant.
 
+
 Future plans with this project include:
 
 -tracking different play styles to see which 'random' presses yield the highest scores.
