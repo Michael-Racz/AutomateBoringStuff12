@@ -1,0 +1,10 @@
+# AutomateBoringStuff12
+Chapter 12 projects from Web Scraping
+
+
+##2048.py
+This program will open a web browser in firefox and start playing the game 2048 with repeated keypresses: UP, RIGHT, DOWN, LEFT. The game will not restart upon a game over.
+
+Future plans with this project include:
+-tracking different play styles to see which 'random' presses yield the highest scores.
+-Being able to restart the game when there is a "Game Over"
