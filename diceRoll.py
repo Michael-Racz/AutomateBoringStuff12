@@ -6,9 +6,6 @@ def diceRoll(die_string):
     add_roll = 0
     rollregex = re.compile('([0-9]+)([d])([0-9]+)([+-]+)([0-9]+)')
     my_roll = rollregex.findall(die_string)
-    #randint(a,b)
-    
-    #Each ROLL in my_roll is a tuple
     for roll in my_roll:
         for i in range(int(roll[0])):
             add_roll += random.randint(1,int(roll[2]))
@@ -16,7 +13,6 @@ def diceRoll(die_string):
             add_roll += int(roll[4])
         elif roll[3] == '-':
             add_roll -= int(roll[4])
-
     print(add_roll)
 print('Format for one roll is "1d6". "1d6+0" and "1d6" are the same.')
 print('Format for more than one roll is "1d6 3d6+1 1d20+2". One space between each roll will do.')
